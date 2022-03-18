@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c998fd1f-15b9-44ba-8a79-a85f432abdff" extendedConfigurationObject="05123eb5-b6d6-43d3-9caf-c5b5f334e432">
+  <producedTypes>
+    <objectType typeId="268b3f1a-f542-49f9-b0b1-fdbbf32008c7" valueTypeId="c97e30e3-cb74-4f28-baea-3e90b7c7e243"/>
+    <refType typeId="3459eb57-0b88-46c5-bd0c-6029b9dc73c4" valueTypeId="db4682e1-57f7-4b58-ba13-99a4b94619a5"/>
+    <selectionType typeId="52487936-cecf-4f4f-8ea8-9ccc8646e88d" valueTypeId="daa0fa02-46a9-4065-a29b-e4b5c8f0dcce"/>
+    <listType typeId="a1140c5b-a76a-4c81-b85a-9c840f318340" valueTypeId="a39d79fe-fa8b-49b8-974a-0bd453ad3e18"/>
+    <managerType typeId="80c49491-91ed-4ee7-9360-52d674de2761" valueTypeId="38aa17ef-f871-41aa-bcd4-e9513438ac31"/>
+  </producedTypes>
+  <name>ТехническиеПроекты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <commands uuid="e63a53e4-e6f3-4254-ad89-9d258b04fc12" extendedConfigurationObject="cc19f967-fc34-4364-a4c6-20b581a9aa20">
+    <name>СоздатьТехническийПроект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+  <commands uuid="59d89f78-16b6-4c05-a7ff-bf5263a152d8" extendedConfigurationObject="5e3bf69f-84bb-479a-a816-00e0a466c661">
+    <name>ДобавитьВТехническийПроект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:Catalog>

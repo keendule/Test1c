@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="81583cea-9fa6-4bbb-93d2-c2562dde54f6" extendedConfigurationObject="85817d40-819c-412b-beab-f6335c763c84">
+  <producedTypes>
+    <objectType typeId="40a763a6-ab20-409f-a794-6ec4ec5cb106" valueTypeId="1e29c891-9b98-4dc2-b5ca-e6162ad11864"/>
+    <refType typeId="72f4f67c-9da9-4258-aa5b-41cba043fe2f" valueTypeId="861eeacb-a60b-471a-b027-bb58a2289745"/>
+    <selectionType typeId="cdf242ee-fca1-45fc-b4d0-84e9997d5399" valueTypeId="2b940cbd-97cd-4bb9-9763-54cf39d79acc"/>
+    <listType typeId="c667d4e7-ddc0-40c8-bee4-d4f2bef5df08" valueTypeId="b9699a03-3acc-4bce-8a0c-666aacbd9de2"/>
+    <managerType typeId="c7c0b0d1-5c1e-4429-9afe-87a014d24969" valueTypeId="1eba54cc-634e-4940-aca4-0f66699ad94b"/>
+  </producedTypes>
+  <name>Идеи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="0ae10180-3faa-46da-b529-10e6d2175766" extendedConfigurationObject="cf221d46-992f-455a-91d3-9866fc627031">
+    <name>Идея</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <commands uuid="b1699664-bc3f-418a-96b4-1bee149051ae" extendedConfigurationObject="6d6ec6a8-f07e-4f11-abe0-98da412ce20c">
+    <name>ПечатьОписаний</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:Catalog>
